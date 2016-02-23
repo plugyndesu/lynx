@@ -18,7 +18,7 @@ def getVoice(x):
 	except:
 		return (print("[Voice is offline]"));
 
-#user says no to command
+#user says no to command;
 def noCom():
 	return (getVoice("OK! Let me know if you need anything!"));
 	#return ("Swipe: OK Anon! Let me know if you need anything!");
