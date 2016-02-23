@@ -68,7 +68,7 @@ def setWiki():
 	getVoice("OK, I will take a look.");
 	return (getWiki(x));
 
-#get the wiki page using lxml.
+#get the wiki page using lxml
 def getWiki(subject):
 	try:
 		with urllib.request.urlopen('https://en.wikipedia.org/wiki/' + subject) as response:
